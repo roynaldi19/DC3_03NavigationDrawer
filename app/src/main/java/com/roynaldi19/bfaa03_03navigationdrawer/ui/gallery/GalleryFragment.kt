@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.roynaldi19.bfaa03_03navigationdrawer.databinding.FragmentGalleryBinding
 
 class GalleryFragment : Fragment() {
-
     private var _binding: FragmentGalleryBinding? = null
 
     // This property is only valid between onCreateView and
