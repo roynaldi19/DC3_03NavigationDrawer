@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa03_03navigationdrawer.ui.gallery
+package com.roynaldi19.dc3_03navigationdrawer.ui.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

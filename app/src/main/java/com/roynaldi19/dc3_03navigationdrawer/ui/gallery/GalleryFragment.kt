@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa03_03navigationdrawer.ui.slideshow
+package com.roynaldi19.dc3_03navigationdrawer.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.roynaldi19.bfaa03_03navigationdrawer.databinding.FragmentSlideshowBinding
+import com.roynaldi19.dc3_03navigationdrawer.databinding.FragmentGalleryBinding
 
-class SlideshowFragment : Fragment() {
-    private var _binding: FragmentSlideshowBinding? = null
+class GalleryFragment : Fragment() {
+    private var _binding: FragmentGalleryBinding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -18,14 +21,14 @@ class SlideshowFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
-            ViewModelProvider(this).get(SlideshowViewModel::class.java)
+        val galleryViewModel =
+            ViewModelProvider(this).get(GalleryViewModel::class.java)
 
-        _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textGallery
+        galleryViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa03_03navigationdrawer
+package com.roynaldi19.dc3_03navigationdrawer
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,7 +12,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.roynaldi19.bfaa03_03navigationdrawer.databinding.ActivityMainBinding
+import com.roynaldi19.dc3_03navigationdrawer.databinding.ActivityMainBinding
 import de.hdodenhof.circleimageview.CircleImageView
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa03_03navigationdrawer.ui.home
+package com.roynaldi19.dc3_03navigationdrawer.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.roynaldi19.bfaa03_03navigationdrawer.databinding.FragmentHomeBinding
+import com.roynaldi19.dc3_03navigationdrawer.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null

@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa03_03navigationdrawer
+package com.roynaldi19.dc3_03navigationdrawer
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

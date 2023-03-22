@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.roynaldi19.bfaa03_03navigationdrawer"
+        applicationId "com.roynaldi19.dc3_03navigationdrawer"
         minSdk 21
         targetSdk 32
         versionCode 1
